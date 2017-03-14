@@ -15,6 +15,8 @@
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php wp_head(); ?>
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700" rel="stylesheet">
+
 	</head>
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
@@ -38,7 +40,7 @@
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/themes/fpress/assets/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" /> </a></li>
 				</ul>
 			</div>
 			<div class="top-bar-right">

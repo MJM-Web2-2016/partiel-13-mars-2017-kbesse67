@@ -15,15 +15,14 @@
 
 get_header(); ?>
 
-<div id="page" role="main">
-	<article class="main-content">
+
+
 
 			<?php get_template_part( 'template-parts/slider-top', get_post_format() ); ?>
 
 
-	</article>
 
 
-</div>
+
 
 <?php get_footer();

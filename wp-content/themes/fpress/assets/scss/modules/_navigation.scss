@@ -70,7 +70,7 @@
     }
   }
 
-  .menu .active > a { background-color: lighten($outer-space, 10%); }
+  .menu .active > a { background-color: white; }
 
   .menu>li:not(.menu-text)>a { padding: 1rem; }
   .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
@@ -95,3 +95,12 @@
 
 .nav-previous { float:left; }
 .nav-next { float:right; }
+
+#site-navigation {
+  background:white;
+  height:100px;
+}
+
+ul.menu {
+  background:white;
+}
