@@ -21,6 +21,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/slider-top', get_post_format() ); ?>
 			<?php get_template_part( 'template-parts/programmation', get_post_format() ); ?>
 			<?php get_template_part( 'template-parts/billetterie', get_post_format() ); ?>
+			<?php get_template_part( 'template-parts/label', get_post_format() ); ?>
 
 
 
